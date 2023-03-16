@@ -1,0 +1,27 @@
+#login{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#login .form{
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 480rem;
+    padding: 0.5rem;
+
+}
+
+#login .field label{
+display: block;    
+}
+#login .field input{
+width: 100%;
+}
+#login .submit{
+text-align: center;
+margin-top: 1rem;
+}
